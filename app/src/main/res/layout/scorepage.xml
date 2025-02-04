@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgnd2"
+    android:orientation="horizontal">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/back_button_states"
+        android:text=""
+        android:textColor="#bdfcf2"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_sharescore"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btn_back"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="178dp"
+        android:layout_toStartOf="@+id/textView"
+        android:background="@drawable/fbicon" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/picture"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_above="@+id/btn_sharescore"
+        android:layout_gravity="center"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="119dp"
+        android:layout_toStartOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFF78"
+        android:text=" Thank you! "
+        android:fontFamily="casual"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.23"
+        android:layout_alignTop="@+id/picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        tools:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_sharescore"
+        android:layout_alignBottom="@+id/btn_sharescore"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/btn_sharescore"
+        android:fontFamily="casual"
+        android:text="SCORE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f7ff00"
+        android:textSize="25sp" />
+
+</RelativeLayout>
