@@ -72,6 +72,7 @@ class ParticleManager {
         }
     }
 
+    @OptIn(ExperimentalStdlibApi::class)
     fun Init(_ScreenWidth: Int, _ScreenHeight: Int) {
         ScreenWidth = _ScreenWidth
         ScreenHeight = _ScreenHeight
