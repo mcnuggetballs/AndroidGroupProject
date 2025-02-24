@@ -1,0 +1,616 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.compose.ui:ui-test-junit4-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b6b00017b76e36125361118c21f24202\transformed\ui-test-junit4-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\16018b37e7e59a7097eb0877bbcb7ce1\transformed\navigation-common-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5005d331d75286abc2ead322a81f680f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2703b844936de1a8fad6a6cd2c4c714f\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\034cfffdd924d47d1fdd59f07aa11317\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e27ee8ba7d99982396ee8efdb973f341\transformed\navigation-compose-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\12de7792bc9553ca402339dd60b5a0b9\transformed\facebook-android-sdk-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\052e36b42c84cc949e92b2d65b2c6e05\transformed\facebook-login-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-gamingservices:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\307d5149b13e2da97fef4040002ad612\transformed\facebook-gamingservices-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-share:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\173451aa46eec1753de09c9271ced02b\transformed\facebook-share-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:9:1-44:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4839f8587f8683c7319444b56688c53f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e00fb137f21419b46b08cae33ac0b17d\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e8cd82b1a694677b27d4233a50a9baab\transformed\fragment-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\61d4c4ae4fb0822af7f1f5adce1814ba\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5c9cb2ef8fa0491812f541f36e417ae2\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c2036a3c889ad9e4d3ad989655a6c2d\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\160a74286cf422c471d465ff8591edbe\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b51785feb19424c75c330ff0d8423061\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8e72a5d1f5d5bad28ef756842792c52e\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\025b75d6ca054e5cd53ebc51546f5e2e\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2fce0bbf83000204bd9e2422725d1dae\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\52db0491d0c787b16b0bbeecaf5ee2c3\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\084694795a48b1a88f973b1f0c5fe616\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d162d2b6f769377117155a05d8dd2cf1\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f4c20b1dab727e7beeeaaf65c779d1ff\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\86ca78e31a2f3d48513dd637eee3ba78\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\235a337c681f10aacf4034a083a31f7a\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f2cc3796d57d08b0e73b35a073070f0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\7aa1bc8fede48a7eef9ffdd56f845343\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-applinks:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0be06588e7d1ffbd25203e49e432eb30\transformed\facebook-applinks-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-messenger:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\08e1b6791c1b9575f66dbd3e356c418f\transformed\facebook-messenger-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:9:1-50:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d4a8fe740876843740a3ad0b5093fb84\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0458b94d9f9ff1bd308b32a212b46c46\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2c0563a25ca074e4da567f8e7b42d28d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\342f232472c8f45ef7b6d3d785cba405\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\552aeea72c82c871d0ed4bbd97629011\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2f062a2ea125ddaa50185e1ad0802316\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\425c9e1161ab70ae21643f017cef090f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\776ebf8f42dc51b16cf88dfbee82a96f\transformed\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5be19d2887de04ac17ae45425ef480d4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e0218e8051e257ccf0dabf9834a0ff9a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d12a6da76615ec273faf345711d6f846\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3039a49da5c7fa00fc475f1939016d3b\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\eea2ba403629be6aabbe7e268f918fbb\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\38d1a7c4f9a59243591204251136620a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0b0a23bf8d736990e56706fdae34fb3f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\44e68bac861059bf2de64d12c4c0f0e4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6b53d153208372354e9a04c75609f97f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.test.espresso:espresso-core:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9d4faab3a36388a34673634c633478d3\transformed\espresso-core-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.ext:junit:1.1.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\cad0894b89d42ead63595adbfea20aaf\transformed\junit-1.1.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e65fd2b7e7bd4ac3d1f21125b927a2a\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bb6a8a9302e7bdff591e15215f771ddf\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ce9b7d731141aacb6a0ba66dd1d36185\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\195e5cd3320baf325cc5f231e245003a\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e7d85a41a68592490a17b766b289c22\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59a6ad96bcb2aee9bff74eb472d68ba3\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\fe11573110dcdb94a0f1791a2f8121d7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3822aa728a492c74436c0874f6abc7d1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5e465e45e38c37fa917d83929d7d979f\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\621cd676a6ebe36b23b81bcaf5d2bb81\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8316b28d2e3ff9bc96468f42684adf4a\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\55fbabd1e4ef4da5bc028710b59c10ef\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\1faee25e70a4171d107a137d7c429d08\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c88f3c55b80774a9aa793b221ff6aa7\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\89121d602c2fab26fb5e5c570c275517\transformed\ui-test-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-bolts:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8f57addf65a2bee34f1f79dbea37db7f\transformed\facebook-bolts-16.0.1\AndroidManifest.xml:9:1-19:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ed5f131b10c8cb5c51658248b3888a52\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a3219edbd6703576fd94533cf063cbe6\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c3b2b4914c10fd2feb90f5ffd78f60c4\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a99826ff148e5534a94510c334352c3f\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.uiautomator:uiautomator:2.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b10cafdb0f53c3355a3003ecfafd8c4\transformed\uiautomator-2.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9f25942bcc0d90e3f01f1dbfaa5a1635\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d94942b8145470f53e31198a36ce1a8f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5b1c02785dc12644a2feffba6d126103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8db3d79f9532160c81aef21a445b4a93\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\066f06fbacd6b0515dfb32a0968cbcfa\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\69cda194568ba7c278a8a967a61c5d15\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9803a12ed65edd24f0fbc8cbdccbda30\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59d7d5eddc1a37c00671e4cd7daf0633\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6ae3b6ab1cfed44e4dd2dd5e14586215\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d5f389b5328d8dcd54d50e1b7b5be79f\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b31edbc10a78200ba96ffc794304ed81\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e4f706f02fdcb186338cc66132616e1f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c45da8417d2cfcab07a68ab4597a78e4\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:6:22-63
+application
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:8:5-31:19
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:8:5-31:19
+MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\12de7792bc9553ca402339dd60b5a0b9\transformed\facebook-android-sdk-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\12de7792bc9553ca402339dd60b5a0b9\transformed\facebook-android-sdk-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\052e36b42c84cc949e92b2d65b2c6e05\transformed\facebook-login-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\052e36b42c84cc949e92b2d65b2c6e05\transformed\facebook-login-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-gamingservices:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\307d5149b13e2da97fef4040002ad612\transformed\facebook-gamingservices-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-gamingservices:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\307d5149b13e2da97fef4040002ad612\transformed\facebook-gamingservices-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-share:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\173451aa46eec1753de09c9271ced02b\transformed\facebook-share-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-share:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\173451aa46eec1753de09c9271ced02b\transformed\facebook-share-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:21:5-42:19
+MERGED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:21:5-42:19
+MERGED from [com.facebook.android:facebook-applinks:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0be06588e7d1ffbd25203e49e432eb30\transformed\facebook-applinks-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-applinks:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0be06588e7d1ffbd25203e49e432eb30\transformed\facebook-applinks-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-messenger:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\08e1b6791c1b9575f66dbd3e356c418f\transformed\facebook-messenger-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-messenger:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\08e1b6791c1b9575f66dbd3e356c418f\transformed\facebook-messenger-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:18:5-48:19
+MERGED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:18:5-48:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [com.facebook.android:facebook-bolts:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8f57addf65a2bee34f1f79dbea37db7f\transformed\facebook-bolts-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-bolts:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8f57addf65a2bee34f1f79dbea37db7f\transformed\facebook-bolts-16.0.1\AndroidManifest.xml:16:5-17:19
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5b1c02785dc12644a2feffba6d126103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5b1c02785dc12644a2feffba6d126103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:16:9-55
+	android:dataExtractionRules
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:10:9-65
+activity#edu.androidgroupproject.GamePage
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:19:9-29:20
+	android:label
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:23:13-59
+	android:name
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:20:13-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:26:17-68
+	android:name
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+MERGED from [androidx.compose.ui:ui-test-junit4-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b6b00017b76e36125361118c21f24202\transformed\ui-test-junit4-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-junit4-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b6b00017b76e36125361118c21f24202\transformed\ui-test-junit4-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\16018b37e7e59a7097eb0877bbcb7ce1\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\16018b37e7e59a7097eb0877bbcb7ce1\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5005d331d75286abc2ead322a81f680f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5005d331d75286abc2ead322a81f680f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2703b844936de1a8fad6a6cd2c4c714f\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2703b844936de1a8fad6a6cd2c4c714f\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\034cfffdd924d47d1fdd59f07aa11317\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\034cfffdd924d47d1fdd59f07aa11317\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e27ee8ba7d99982396ee8efdb973f341\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e27ee8ba7d99982396ee8efdb973f341\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\12de7792bc9553ca402339dd60b5a0b9\transformed\facebook-android-sdk-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\12de7792bc9553ca402339dd60b5a0b9\transformed\facebook-android-sdk-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\052e36b42c84cc949e92b2d65b2c6e05\transformed\facebook-login-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-login:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\052e36b42c84cc949e92b2d65b2c6e05\transformed\facebook-login-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-gamingservices:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\307d5149b13e2da97fef4040002ad612\transformed\facebook-gamingservices-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-gamingservices:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\307d5149b13e2da97fef4040002ad612\transformed\facebook-gamingservices-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-share:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\173451aa46eec1753de09c9271ced02b\transformed\facebook-share-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-share:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\173451aa46eec1753de09c9271ced02b\transformed\facebook-share-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:13:5-15:41
+MERGED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:13:5-15:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4839f8587f8683c7319444b56688c53f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4839f8587f8683c7319444b56688c53f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e00fb137f21419b46b08cae33ac0b17d\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e00fb137f21419b46b08cae33ac0b17d\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e8cd82b1a694677b27d4233a50a9baab\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e8cd82b1a694677b27d4233a50a9baab\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\61d4c4ae4fb0822af7f1f5adce1814ba\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\61d4c4ae4fb0822af7f1f5adce1814ba\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5c9cb2ef8fa0491812f541f36e417ae2\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5c9cb2ef8fa0491812f541f36e417ae2\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c2036a3c889ad9e4d3ad989655a6c2d\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c2036a3c889ad9e4d3ad989655a6c2d\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\160a74286cf422c471d465ff8591edbe\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\fishy\.gradle\caches\8.10.2\transforms\160a74286cf422c471d465ff8591edbe\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b51785feb19424c75c330ff0d8423061\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b51785feb19424c75c330ff0d8423061\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8e72a5d1f5d5bad28ef756842792c52e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8e72a5d1f5d5bad28ef756842792c52e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\025b75d6ca054e5cd53ebc51546f5e2e\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\025b75d6ca054e5cd53ebc51546f5e2e\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2fce0bbf83000204bd9e2422725d1dae\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2fce0bbf83000204bd9e2422725d1dae\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\52db0491d0c787b16b0bbeecaf5ee2c3\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\52db0491d0c787b16b0bbeecaf5ee2c3\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\084694795a48b1a88f973b1f0c5fe616\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\084694795a48b1a88f973b1f0c5fe616\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d162d2b6f769377117155a05d8dd2cf1\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d162d2b6f769377117155a05d8dd2cf1\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f4c20b1dab727e7beeeaaf65c779d1ff\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f4c20b1dab727e7beeeaaf65c779d1ff\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\86ca78e31a2f3d48513dd637eee3ba78\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\86ca78e31a2f3d48513dd637eee3ba78\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\235a337c681f10aacf4034a083a31f7a\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\235a337c681f10aacf4034a083a31f7a\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f2cc3796d57d08b0e73b35a073070f0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f2cc3796d57d08b0e73b35a073070f0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\7aa1bc8fede48a7eef9ffdd56f845343\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\7aa1bc8fede48a7eef9ffdd56f845343\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-applinks:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0be06588e7d1ffbd25203e49e432eb30\transformed\facebook-applinks-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-applinks:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0be06588e7d1ffbd25203e49e432eb30\transformed\facebook-applinks-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-messenger:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\08e1b6791c1b9575f66dbd3e356c418f\transformed\facebook-messenger-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-messenger:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\08e1b6791c1b9575f66dbd3e356c418f\transformed\facebook-messenger-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d4a8fe740876843740a3ad0b5093fb84\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d4a8fe740876843740a3ad0b5093fb84\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0458b94d9f9ff1bd308b32a212b46c46\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0458b94d9f9ff1bd308b32a212b46c46\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2c0563a25ca074e4da567f8e7b42d28d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2c0563a25ca074e4da567f8e7b42d28d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\342f232472c8f45ef7b6d3d785cba405\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\342f232472c8f45ef7b6d3d785cba405\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\552aeea72c82c871d0ed4bbd97629011\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\552aeea72c82c871d0ed4bbd97629011\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2f062a2ea125ddaa50185e1ad0802316\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\2f062a2ea125ddaa50185e1ad0802316\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\425c9e1161ab70ae21643f017cef090f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\425c9e1161ab70ae21643f017cef090f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\776ebf8f42dc51b16cf88dfbee82a96f\transformed\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\776ebf8f42dc51b16cf88dfbee82a96f\transformed\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5be19d2887de04ac17ae45425ef480d4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5be19d2887de04ac17ae45425ef480d4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e0218e8051e257ccf0dabf9834a0ff9a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e0218e8051e257ccf0dabf9834a0ff9a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d12a6da76615ec273faf345711d6f846\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d12a6da76615ec273faf345711d6f846\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3039a49da5c7fa00fc475f1939016d3b\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3039a49da5c7fa00fc475f1939016d3b\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\eea2ba403629be6aabbe7e268f918fbb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\eea2ba403629be6aabbe7e268f918fbb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\38d1a7c4f9a59243591204251136620a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\38d1a7c4f9a59243591204251136620a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0b0a23bf8d736990e56706fdae34fb3f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0b0a23bf8d736990e56706fdae34fb3f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\44e68bac861059bf2de64d12c4c0f0e4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\44e68bac861059bf2de64d12c4c0f0e4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6b53d153208372354e9a04c75609f97f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6b53d153208372354e9a04c75609f97f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.espresso:espresso-core:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9d4faab3a36388a34673634c633478d3\transformed\espresso-core-3.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9d4faab3a36388a34673634c633478d3\transformed\espresso-core-3.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\cad0894b89d42ead63595adbfea20aaf\transformed\junit-1.1.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.5] C:\Users\fishy\.gradle\caches\8.10.2\transforms\cad0894b89d42ead63595adbfea20aaf\transformed\junit-1.1.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e65fd2b7e7bd4ac3d1f21125b927a2a\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e65fd2b7e7bd4ac3d1f21125b927a2a\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bb6a8a9302e7bdff591e15215f771ddf\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bb6a8a9302e7bdff591e15215f771ddf\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ce9b7d731141aacb6a0ba66dd1d36185\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ce9b7d731141aacb6a0ba66dd1d36185\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\195e5cd3320baf325cc5f231e245003a\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\195e5cd3320baf325cc5f231e245003a\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e7d85a41a68592490a17b766b289c22\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4e7d85a41a68592490a17b766b289c22\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59a6ad96bcb2aee9bff74eb472d68ba3\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59a6ad96bcb2aee9bff74eb472d68ba3\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\fe11573110dcdb94a0f1791a2f8121d7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\fe11573110dcdb94a0f1791a2f8121d7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3822aa728a492c74436c0874f6abc7d1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3822aa728a492c74436c0874f6abc7d1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5e465e45e38c37fa917d83929d7d979f\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5e465e45e38c37fa917d83929d7d979f\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\621cd676a6ebe36b23b81bcaf5d2bb81\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\621cd676a6ebe36b23b81bcaf5d2bb81\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8316b28d2e3ff9bc96468f42684adf4a\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8316b28d2e3ff9bc96468f42684adf4a\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\55fbabd1e4ef4da5bc028710b59c10ef\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\55fbabd1e4ef4da5bc028710b59c10ef\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\1faee25e70a4171d107a137d7c429d08\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\1faee25e70a4171d107a137d7c429d08\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c88f3c55b80774a9aa793b221ff6aa7\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\3c88f3c55b80774a9aa793b221ff6aa7\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\89121d602c2fab26fb5e5c570c275517\transformed\ui-test-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\89121d602c2fab26fb5e5c570c275517\transformed\ui-test-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-bolts:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8f57addf65a2bee34f1f79dbea37db7f\transformed\facebook-bolts-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-bolts:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8f57addf65a2bee34f1f79dbea37db7f\transformed\facebook-bolts-16.0.1\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ed5f131b10c8cb5c51658248b3888a52\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\ed5f131b10c8cb5c51658248b3888a52\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a3219edbd6703576fd94533cf063cbe6\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a3219edbd6703576fd94533cf063cbe6\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c3b2b4914c10fd2feb90f5ffd78f60c4\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c3b2b4914c10fd2feb90f5ffd78f60c4\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a99826ff148e5534a94510c334352c3f\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a99826ff148e5534a94510c334352c3f\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.uiautomator:uiautomator:2.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b10cafdb0f53c3355a3003ecfafd8c4\transformed\uiautomator-2.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test.uiautomator:uiautomator:2.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b10cafdb0f53c3355a3003ecfafd8c4\transformed\uiautomator-2.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9f25942bcc0d90e3f01f1dbfaa5a1635\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9f25942bcc0d90e3f01f1dbfaa5a1635\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d94942b8145470f53e31198a36ce1a8f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d94942b8145470f53e31198a36ce1a8f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5b1c02785dc12644a2feffba6d126103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\5b1c02785dc12644a2feffba6d126103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8db3d79f9532160c81aef21a445b4a93\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\8db3d79f9532160c81aef21a445b4a93\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\066f06fbacd6b0515dfb32a0968cbcfa\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\066f06fbacd6b0515dfb32a0968cbcfa\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\69cda194568ba7c278a8a967a61c5d15\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\69cda194568ba7c278a8a967a61c5d15\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9803a12ed65edd24f0fbc8cbdccbda30\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9803a12ed65edd24f0fbc8cbdccbda30\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59d7d5eddc1a37c00671e4cd7daf0633\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\59d7d5eddc1a37c00671e4cd7daf0633\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6ae3b6ab1cfed44e4dd2dd5e14586215\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\6ae3b6ab1cfed44e4dd2dd5e14586215\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d5f389b5328d8dcd54d50e1b7b5be79f\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\d5f389b5328d8dcd54d50e1b7b5be79f\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b31edbc10a78200ba96ffc794304ed81\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\fishy\.gradle\caches\8.10.2\transforms\b31edbc10a78200ba96ffc794304ed81\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e4f706f02fdcb186338cc66132616e1f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\e4f706f02fdcb186338cc66132616e1f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c45da8417d2cfcab07a68ab4597a78e4\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\c45da8417d2cfcab07a68ab4597a78e4\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml
+queries
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:17:5-19:15
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
+package#com.facebook.katana
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:22:9-25:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:24:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:23:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:27:9-41:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:30:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:28:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.edu.androidgroupproject+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:27-75
+data
+ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:37:17-39:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:38:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:39:21-47
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:16:22-76
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+	android:name
+		ADDED from [com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\bbaec2813c9df3f4f80b00a6f66e4411\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#edu.androidgroupproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#edu.androidgroupproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from [androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:9:22-107
