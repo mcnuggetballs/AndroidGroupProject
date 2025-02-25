@@ -13,6 +13,10 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback,
     private val sensorManager = context.getSystemService(Context.SENSOR_SERVICE) as SensorManager
     private var accelerometer: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
 
+    private var baseTiltX = 0f
+    private var baseTiltY = 0f
+    private var isCalibrated = false
+
     init {
         holder.addCallback(this)
         accelerometer?.let { sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_GAME) }
@@ -39,11 +43,22 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback,
 
     override fun onSensorChanged(event: SensorEvent?) {
         if (event?.sensor?.type == Sensor.TYPE_ACCELEROMETER) {
-            val tiltX = event.values[0] // Left-right tilt
-            val tiltY = event.values[1] // Up-down tilt
+            val rawTiltX = event.values[0]  // Left-right tilt
+            val rawTiltY = event.values[2]  // Up-down tilt
 
-            // Pass tilt values to PlayerInfo for processing
-            PlayerInfo.Instance.SetTiltValues(-tiltX, tiltY) // Adjust to match game coordinates
+            // ✅ Calibrate the tilt only ONCE when the game starts
+            if (!isCalibrated) {
+                baseTiltX = rawTiltX
+                baseTiltY = rawTiltY
+                isCalibrated = true
+            }
+
+            // ✅ Subtract the base values to ensure no initial movement
+            val tiltX = rawTiltX - baseTiltX
+            val tiltY = rawTiltY - baseTiltY
+
+            // ✅ Update the player’s movement values
+            PlayerInfo.Instance.SetTiltValues(-tiltX, tiltY)
         }
     }
 
