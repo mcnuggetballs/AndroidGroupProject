@@ -7,6 +7,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.view.SurfaceView
 import com.edu.androidgroupproject.GameSystem
+import com.fishweeb.practical.ParticleManager
 
 class MainGameState : StateBase {
     private var bmp: Bitmap? = null // Background image

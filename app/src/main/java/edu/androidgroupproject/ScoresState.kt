@@ -8,6 +8,7 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.view.SurfaceView
 import com.edu.androidgroupproject.GameSystem
+import com.fishweeb.practical.ParticleManager
 
 class ScoresState : StateBase {
     private var background: Bitmap? = null

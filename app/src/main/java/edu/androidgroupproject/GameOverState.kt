@@ -5,6 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.view.SurfaceView
 import com.edu.androidgroupproject.GameSystem
+import com.fishweeb.practical.ParticleManager
 
 class GameOverState : StateBase {
     private var background: Bitmap? = null

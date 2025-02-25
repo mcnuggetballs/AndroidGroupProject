@@ -4,6 +4,7 @@ import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.util.Log
 import android.view.SurfaceView
+import com.fishweeb.practical.ParticleManager
 
 open class EnemyEntity : EntityBase, Collidable {
     protected var bmp: Bitmap? = null

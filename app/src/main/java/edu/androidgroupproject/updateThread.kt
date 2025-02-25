@@ -3,6 +3,7 @@ package edu.androidgroupproject
 import android.graphics.Color
 import android.view.SurfaceHolder
 import com.edu.androidgroupproject.GameSystem
+import com.fishweeb.practical.ParticleManager
 
 class UpdateThread(private val view: GameView) : Thread() {
     private val holder: SurfaceHolder = view.holder

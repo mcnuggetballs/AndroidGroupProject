@@ -9,6 +9,7 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.view.SurfaceView
 import com.edu.androidgroupproject.GameSystem
+import com.fishweeb.practical.ParticleManager
 
 // Sample of an intro state - You can change to Splash page..
 class MainMenuState : Activity(), StateBase {
