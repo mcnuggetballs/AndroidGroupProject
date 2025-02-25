@@ -5,8 +5,10 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
+import android.util.Log
 import android.view.SurfaceHolder
 import android.view.SurfaceView
+import android.view.MotionEvent
 
 class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback, SensorEventListener {
     private val updateThread = UpdateThread(this)
@@ -63,4 +65,9 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback,
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {}
+
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        TouchManager.Instance.Update(event.x.toInt(), event.y.toInt(), event.action)
+        return true
+    }
 }
