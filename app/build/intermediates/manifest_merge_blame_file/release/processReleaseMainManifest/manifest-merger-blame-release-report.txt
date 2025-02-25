@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.androidgroupproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" /> <!-- Ensure this matches your app package -->
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:6:22-63
+12
+13    <queries>
+13-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:17:5-19:15
+14        <package android:name="com.facebook.katana" />
+14-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+14-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+15        <package android:name="androidx.test.orchestrator" />
+15-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
+15-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
+16        <package android:name="androidx.test.services" />
+16-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
+16-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
+17        <package android:name="com.google.android.apps.common.testing.services" />
+17-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
+17-->[androidx.test:runner:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4bb705d1939a73b002880543f2c53d66\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
+18    </queries>
+19
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:16:5-79
+20-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:16:22-76
+21
+22    <permission
+22-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+23        android:name="edu.androidgroupproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="edu.androidgroupproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+27    <uses-permission android:name="android.permission.REORDER_TASKS" />
+27-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+27-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:9:5-110
+28-->[com.android.installreferrer:installreferrer:1.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\4b0efb748fd81acfbebe20b38c3ec50b\transformed\installreferrer-1.0\AndroidManifest.xml:9:22-107
+29
+30    <application
+30-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:8:5-32:19
+31        android:allowBackup="true"
+31-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:9:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.15.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\a5307b4382a9bb296e7877f114dfaa43\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:10:9-65
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:11:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:12:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:13:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:14:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:15:9-35
+40        android:theme="@style/Theme.Csd3156quiz012025" >
+40-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:16:9-55
+41        <activity
+41-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:19:9-30:20
+42            android:name="edu.androidgroupproject.GamePage"
+42-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:20:13-37
+43            android:exported="true"
+43-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:21:13-36
+44            android:label="@string/app_name"
+44-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:22:13-45
+45            android:screenOrientation="portrait"
+45-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:23:13-49
+46            android:theme="@style/Theme.Csd3156quiz012025" >
+46-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:24:13-59
+47            <intent-filter>
+47-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:26:13-29:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:27:17-68
+48-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:27:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:17-76
+50-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:22:9-25:66
+54            android:name="com.facebook.FacebookActivity"
+54-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:23:13-57
+55            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+55-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:24:13-96
+56            android:theme="@style/com_facebook_activity_theme" />
+56-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+57        <activity android:name="com.facebook.CustomTabMainActivity" />
+57-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+57-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+58        <activity
+58-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:27:9-41:20
+59            android:name="com.facebook.CustomTabActivity"
+59-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:28:13-58
+60            android:exported="true" >
+60-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:29:13-36
+61            <intent-filter>
+61-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:17-69
+62-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:17-76
+64-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:17-78
+65-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:27-75
+66
+67                <data
+67-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:37:17-39:50
+68                    android:host="cct.edu.androidgroupproject"
+68-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:38:21-56
+69                    android:scheme="fbconnect" />
+69-->[com.facebook.android:facebook-common:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\82e3cc800ca201a0f33c5b572f298e91\transformed\facebook-common-16.0.1\AndroidManifest.xml:39:21-47
+70            </intent-filter>
+71        </activity>
+72        <!--
+73         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+74         with the application context. This config is merged in with the host app's manifest,
+75         but there can only be one provider with the same authority activated at any given
+76         point; so if the end user has two or more different apps that use Facebook SDK, only the
+77         first one will be able to use the provider. To work around this problem, we use the
+78         following placeholder in the authority to identify each host application as if it was
+79         a completely different provider.
+80        -->
+81        <provider
+81-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+82            android:name="com.facebook.internal.FacebookInitProvider"
+82-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+83            android:authorities="edu.androidgroupproject.FacebookInitProvider"
+83-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+84            android:exported="false" />
+84-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+85
+86        <receiver
+86-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+87            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+87-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+88            android:exported="false" >
+88-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+89            <intent-filter>
+89-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+90                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+90-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+90-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+91            </intent-filter>
+92        </receiver>
+93        <receiver
+93-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+94            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+94-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+95            android:exported="false" >
+95-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+96            <intent-filter>
+96-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+97                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+97-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+97-->[com.facebook.android:facebook-core:16.0.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\91cd471d2dcbf8b23ba3e292b53c53c4\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+98            </intent-filter>
+99        </receiver>
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+103            android:authorities="edu.androidgroupproject.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\fishy\.gradle\caches\8.10.2\transforms\0282ec693c8362f07d091cdc0d4791ae\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\fishy\.gradle\caches\8.10.2\transforms\367dcc76fd7e9d7d18ae3d0da1e07252\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <activity
+116-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+117            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+117-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+118            android:exported="true"
+118-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+119            android:theme="@style/WhiteBackgroundTheme" >
+119-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+120            <intent-filter android:priority="-100" >
+120-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+120-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:17-76
+121-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:27-74
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+125            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+125-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+126            android:exported="true"
+126-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+127            android:theme="@style/WhiteBackgroundTheme" >
+127-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+128            <intent-filter android:priority="-100" >
+128-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+128-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:17-76
+129-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:27-74
+130            </intent-filter>
+131        </activity>
+132        <activity
+132-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+133            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+133-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+134            android:exported="true"
+134-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+135            android:theme="@style/WhiteBackgroundDialogTheme" >
+135-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+136            <intent-filter android:priority="-100" >
+136-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+136-->[androidx.test:core:1.6.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\9b0288e4382d8dc35890a6e5476d9bae\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+137                <category android:name="android.intent.category.LAUNCHER" />
+137-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:17-76
+137-->C:\Users\fishy\Desktop\csd3156\AndroidGroupProject\app\src\main\AndroidManifest.xml:28:27-74
+138            </intent-filter>
+139        </activity>
+140
+141        <receiver
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+142            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+143            android:directBootAware="false"
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+144            android:enabled="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+145            android:exported="true"
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+146            android:permission="android.permission.DUMP" >
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+148                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+151                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+154                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+155            </intent-filter>
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+157                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\fishy\.gradle\caches\8.10.2\transforms\f13c4f998e3ecdd13d7b7e198057bc0a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+158            </intent-filter>
+159        </receiver>
+160    </application>
+161
+162</manifest>

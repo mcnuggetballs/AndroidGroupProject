@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_bloodparticlebutton.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/bloodparticlebutton.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_bluefish.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_bluefish.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/xml_backup_rules.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_button.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/button.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_quit_button.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/quit_button.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_start.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/start.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_plusbutton.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/plusbutton.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_fbicon.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/fbicon.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_bubbleparticlebutton.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/bubbleparticlebutton.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_spaceship.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_spaceship.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_back_button_states.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/back_button_states.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ship2_3.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ship2_3.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_frog.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_frog.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_resume_button.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/resume_button.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_offswitch.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/offswitch.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_logo.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/logo.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_crab.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_crab.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_buttonbg.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/buttonbg.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_help.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/help.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_back_pressed.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/back_pressed.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_button_text_colour.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/button_text_colour.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_gamescene.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/gamescene.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_enemybullet.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/enemybullet.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_backgnd2.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/backgnd2.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/xml_data_extraction_rules.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_helpb.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/helpb.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_buybutton.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/buybutton.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_onnswitch.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/onnswitch.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_bubble.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/bubble.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_restart_button.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/restart_button.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_pause_button.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/pause_button.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ship2_4.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ship2_4.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_toxic2.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_toxic2.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_back_normal.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/back_normal.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_fish.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_fish.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_splash.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/splash.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_fishparticlebutton.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/fishparticlebutton.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_game.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/game.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_backgnd3.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/backgnd3.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_back.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/back.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ship2_1.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ship2_1.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_powerup_duplicate_straight.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/powerup_duplicate_straight.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_backgnd.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/backgnd.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_snake.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_snake.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_squid.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_squid.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_powerup_duplicate_spread.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/powerup_duplicate_spread.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_bullet.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/bullet.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_lmao.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/lmao.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_toxic1.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_toxic1.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_coin.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/coin.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_blankbg.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/blankbg.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_ray.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_ray.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_sprite_squid2.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/sprite_squid2.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ship2_2.png.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ship2_2.png"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.androidgroupproject.app-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.androidgroupproject.app-release-66:/drawable_ic_launcher_background.xml.flat",
+        "source": "edu.androidgroupproject.app-main-67:/drawable/ic_launcher_background.xml"
+    }
+]
