@@ -74,21 +74,26 @@ class PlayerEntity : EntityBase, Collidable {
         }
 
         // ✅ Handle Movement Based on Tilt or Touch
-        if (PlayerInfo.Instance.UseTiltControls) {
+        val hasTouch = TouchManager.Instance.HasTouch()
+
+        // If there is touch, prioritize it
+        if (hasTouch) {
+            val touchPos = Vector2(
+                TouchManager.Instance.GetPosX().toFloat(),
+                TouchManager.Instance.GetPosY().toFloat()
+            )
+            val direction = touchPos.Minus(Pos).Normalized()
+            Vel.PlusEqual(direction.Times(MOVE_SPEED * _dt))
+        }
+        // Otherwise, use tilt controls
+        else if (PlayerInfo.Instance.UseTiltControls) {
             Vel.x = PlayerInfo.Instance.TiltX * MAX_VEL
             Vel.y = -PlayerInfo.Instance.TiltY * MAX_VEL // Inverting Y to match game coordinates
-        } else {
-            if (TouchManager.Instance.HasTouch()) {
-                val touchPos = Vector2(
-                    TouchManager.Instance.GetPosX().toFloat(),
-                    TouchManager.Instance.GetPosY().toFloat()
-                )
-                val direction = touchPos.Minus(Pos).Normalized()
-                Vel.PlusEqual(direction.Times(MOVE_SPEED * _dt))
-            } else {
-                Vel.x = if (Vel.x > MOVE_SPEED * _dt) Vel.x - MOVE_SPEED * _dt else 0f
-                Vel.y = if (Vel.y > MOVE_SPEED * _dt) Vel.y - MOVE_SPEED * _dt else 0f
-            }
+        }
+        // If no input, slow down movement
+        else {
+            Vel.x = if (Vel.x > MOVE_SPEED * _dt) Vel.x - MOVE_SPEED * _dt else 0f
+            Vel.y = if (Vel.y > MOVE_SPEED * _dt) Vel.y - MOVE_SPEED * _dt else 0f
         }
 
         // Apply velocity to position

@@ -27,7 +27,7 @@ class GamePage : Activity() {
         val x = event.x.toInt()
         val y = event.y.toInt()
 
-        TouchManager.Companion.Instance.Update(x, y, event.action)
+        TouchManager.Instance.Update(x, y, event.action)
         return true
     }
 
