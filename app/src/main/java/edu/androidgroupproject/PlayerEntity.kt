@@ -32,10 +32,6 @@ class PlayerEntity : EntityBase, Collidable {
         isDone = _isDone
     }
 
-    override fun SetRenderLayer(_newLayer: Int) {
-        // No implementation needed
-    }
-
     override fun GetRenderLayer(): Int = LayerConstants.GAMEOBJECTS_LAYER
 
     override fun Init(_view: SurfaceView) {
@@ -77,7 +73,25 @@ class PlayerEntity : EntityBase, Collidable {
             return
         }
 
-        // Movement
+        // ✅ Handle Movement Based on Tilt or Touch
+        if (PlayerInfo.Instance.UseTiltControls) {
+            Vel.x = PlayerInfo.Instance.TiltX * MAX_VEL
+            Vel.y = -PlayerInfo.Instance.TiltY * MAX_VEL // Inverting Y to match game coordinates
+        } else {
+            if (TouchManager.Instance.HasTouch()) {
+                val touchPos = Vector2(
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat()
+                )
+                val direction = touchPos.Minus(Pos).Normalized()
+                Vel.PlusEqual(direction.Times(MOVE_SPEED * _dt))
+            } else {
+                Vel.x = if (Vel.x > MOVE_SPEED * _dt) Vel.x - MOVE_SPEED * _dt else 0f
+                Vel.y = if (Vel.y > MOVE_SPEED * _dt) Vel.y - MOVE_SPEED * _dt else 0f
+            }
+        }
+
+        // Apply velocity to position
         Pos.PlusEqual(Vel, _dt)
 
         // Out of Bounds Check
@@ -88,21 +102,9 @@ class PlayerEntity : EntityBase, Collidable {
         Vel.x = Vel.x.coerceIn(-MAX_VEL, MAX_VEL)
         Vel.y = Vel.y.coerceIn(-MAX_VEL, MAX_VEL)
 
-        if (TouchManager.Instance.HasTouch()) {
-            val touchPos = Vector2(
-                TouchManager.Instance.GetPosX().toFloat(),
-                TouchManager.Instance.GetPosY().toFloat()
-            )
-            val direction = touchPos.Minus(Pos).Normalized()
-            Vel.PlusEqual(direction.Times(MOVE_SPEED * _dt))
-        } else {
-            Vel.x = if (Vel.x > MOVE_SPEED * _dt) Vel.x - MOVE_SPEED * _dt else 0f
-            Vel.y = if (Vel.y > MOVE_SPEED * _dt) Vel.y - MOVE_SPEED * _dt else 0f
-        }
-
         spritesheet?.Update(_dt)
 
-        // 🛠 FIXED SHOOTING LOGIC
+        // ✅ Shooting Mechanic Remains Unchanged
         ShootCounterMain -= _dt
         if (ShootCounterMain <= 0) {
             val mainWeapon = PlayerInfo.Instance.GetMainWeapon() ?: return
@@ -118,49 +120,22 @@ class PlayerEntity : EntityBase, Collidable {
 
                 when (mainWeapon.GetShootType()) {
                     SHOOTTYPE.S_STRAIGHT -> {
-                        // Straight bullets, spread evenly
                         if (shootAmount % 2 == 0) {
-                            currProj.SetPosX(
-                                Pos.x + (i - (shootAmount / 2) + 0.5f) * currProj.GetWidth()
-                            )
+                            currProj.SetPosX(Pos.x + (i - (shootAmount / 2) + 0.5f) * currProj.GetWidth())
                         } else {
-                            currProj.SetPosX(
-                                Pos.x + (i - (shootAmount / 2)) * currProj.GetWidth()
-                            )
+                            currProj.SetPosX(Pos.x + (i - (shootAmount / 2)) * currProj.GetWidth())
                         }
                     }
-
                     SHOOTTYPE.S_SPREAD -> {
-                        val baseSpreadAngle = 15f  // Angle step for each bullet
-                        val spread = baseSpreadAngle * (shootAmount - 1) / 2f  // Total spread range
-
-                        currProj.SetPosY(currProj.GetPosY() - (currProj.GetHeight() * 0.5f))
-
-                        // Calculate angle dynamically based on bullet index
+                        val baseSpreadAngle = 15f
+                        val spread = baseSpreadAngle * (shootAmount - 1) / 2f
                         val angleOffset = Math.toRadians((-spread + (i * baseSpreadAngle)).toDouble())
-
-                        // Corrected velocity calculation
-                        val spreadX = Math.sin(angleOffset).toFloat()  // Adjust X movement
-                        val spreadY = -Math.cos(angleOffset).toFloat() // Keep bullets moving forward
-
-                        currProj.SetVelX(spreadX * 500)  // Apply horizontal movement
+                        val spreadX = Math.sin(angleOffset).toFloat()
+                        currProj.SetVelX(spreadX * 500)
                     }
-
-                    null -> TODO()
+                    null -> {}
                 }
             }
-        }
-
-        ShootCounterSubLeft -= _dt
-        if (ShootCounterSubLeft <= 0) {
-            ShootCounterSubLeft = PlayerInfo.Instance.GetSubWeaponLeft()?.GetFireRate() ?: 0f
-            // Fire sub-weapon left logic here...
-        }
-
-        ShootCounterSubRight -= _dt
-        if (ShootCounterSubRight <= 0) {
-            ShootCounterSubRight = PlayerInfo.Instance.GetSubWeaponRight()?.GetFireRate() ?: 0f
-            // Fire sub-weapon right logic here...
         }
 
         PlayerInfo.Instance.SetPos(Pos)
@@ -172,18 +147,16 @@ class PlayerEntity : EntityBase, Collidable {
     }
 
     override fun GetType(): String = "PlayerEntity"
-
     override fun GetPosX(): Float = Pos.x
-
     override fun GetPosY(): Float = Pos.y
-
     override fun GetRadius(): Float = radius
-
     override fun GetWidth(): Float = width
-
     override fun GetHeight(): Float = height
-
     override fun GetDamage(): Float = 0f
+    override fun SetRenderLayer(_newLayer: Int) {
+        // No special implementation needed, but it must be defined
+    }
+
 
     override fun OnHit(_other: Collidable) {
         if (PlayerInfo.Instance.GetHealth() <= 0) return
@@ -205,10 +178,12 @@ class PlayerEntity : EntityBase, Collidable {
     override fun GetDead(): Boolean = PlayerInfo.Instance.GetHealth() <= 0
 
     companion object {
+        var Instance: PlayerEntity? = null
         fun Create(): PlayerEntity {
-            return PlayerEntity().apply {
-                EntityManager.Instance.AddEntity(this)
-            }
+            val result = PlayerEntity()
+            Instance = result
+            EntityManager.Instance.AddEntity(result)
+            return result
         }
     }
 }

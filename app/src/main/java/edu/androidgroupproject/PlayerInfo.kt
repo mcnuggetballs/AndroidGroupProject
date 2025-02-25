@@ -11,6 +11,11 @@ class PlayerInfo private constructor() {
     private val Weapons = arrayOfNulls<GunInfo>(3)
     private var effecttype: PARTICLETYPE
 
+    // ✅ Added Tilt Controls
+    var TiltX: Float = 0f
+    var TiltY: Float = 0f
+    var UseTiltControls: Boolean = true // Toggle tilt controls
+
     init {
         Weapons.fill(null)
 
@@ -35,6 +40,7 @@ class PlayerInfo private constructor() {
         Score = 0
     }
 
+    // ✅ Restart game and reset player stats
     fun RestartGame() {
         Health = MaxHealth
         Depth = 0f
@@ -46,6 +52,7 @@ class PlayerInfo private constructor() {
         } }
     }
 
+    // ✅ Manage power-up effects
     fun SetEffectType(_type: PARTICLETYPE) {
         effecttype = _type
         GameSystem.Instance.SaveEditBegin()
@@ -55,6 +62,7 @@ class PlayerInfo private constructor() {
 
     fun GetEffectType(): PARTICLETYPE = effecttype
 
+    // ✅ Health management
     fun SetMaxHealth(_value: Float) {
         MaxHealth = _value
     }
@@ -81,6 +89,7 @@ class PlayerInfo private constructor() {
         Health = _value
     }
 
+    // ✅ Money management
     fun AddMoney(_value: Int) {
         Money += _value
     }
@@ -91,6 +100,7 @@ class PlayerInfo private constructor() {
 
     fun GetMoney(): Int = Money
 
+    // ✅ Depth tracking
     fun GetDepth(): Float = Depth
 
     fun SetDepth(_value: Float) {
@@ -101,12 +111,14 @@ class PlayerInfo private constructor() {
         Depth += _dt * DepthIncreaseSpeed
     }
 
+    // ✅ Position tracking
     fun GetPos(): Vector2 = Pos
 
     fun SetPos(_pos: Vector2) {
         this.Pos = _pos
     }
 
+    // ✅ Weapon management
     fun GetMainWeapon(): GunInfo? = Weapons[0]
 
     fun GetSubWeaponLeft(): GunInfo? = Weapons[1]
@@ -123,6 +135,12 @@ class PlayerInfo private constructor() {
 
     fun SetSubWeaponRight(_newWeapon: GunInfo?) {
         Weapons[2] = _newWeapon
+    }
+
+    // ✅ Set tilt values for movement
+    fun SetTiltValues(x: Float, y: Float) {
+        TiltX = x
+        TiltY = y
     }
 
     companion object {
