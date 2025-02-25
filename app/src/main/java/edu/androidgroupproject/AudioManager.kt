@@ -11,15 +11,17 @@ object AudioManager {
         view = _view
     }
 
-    fun playAudio(_id: Int, _volume: Float) {
+    fun playAudio(_id: Int, _volume: Float, loop: Boolean = false) {
         audioMap[_id]?.let { mediaPlayer ->
             mediaPlayer.seekTo(0)
             mediaPlayer.setVolume(_volume, _volume)
+            mediaPlayer.isLooping = loop  // ✅ Enable looping if requested
             mediaPlayer.start()
         } ?: run {
             view?.context?.let { context ->
                 val newAudio = MediaPlayer.create(context, _id)
                 newAudio.setVolume(_volume, _volume)
+                newAudio.isLooping = loop  // ✅ Set looping here
                 newAudio.start()
                 audioMap[_id] = newAudio
             }

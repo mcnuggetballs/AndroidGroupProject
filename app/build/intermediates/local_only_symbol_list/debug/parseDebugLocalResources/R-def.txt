@@ -63,6 +63,7 @@ drawable sprite_toxic2
 drawable start
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw bgm
 string app_name
 style Theme.Csd3156quiz012025
 xml backup_rules

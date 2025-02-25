@@ -14,10 +14,8 @@ class OptionsState : StateBase {
     private val bubbleSpawnTime = 2f
     private var headerText: TextEntity? = null
     private var backButton: BackEntity? = null
-    private var SoundText: TextEntity? = null
     private var ShowFpsText: TextEntity? = null
     private var ShowFpsButton: SwitchButtonEntity? = null
-    private var VolumeBar: VolumeBarEntity? = null
     private var Coinbmp: Bitmap? = null
     private val moneyPaint = Paint()
     private val moneyTextBounds = Rect()
@@ -51,12 +49,8 @@ class OptionsState : StateBase {
         backButton!!.SetPosX(backButton!!.width * 0.5f)
         backButton!!.SetPosY(backButton!!.height * 0.5f)
 
-        SoundText = TextEntity.Create(0f, headerText!!.Pos.y + 100 * 2.5f, "Sound -", 70f)
-        SoundText!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.1f + SoundText!!.GetWidth() * 0.5f)
-        SoundText!!.SetPaintColor(Color.BLACK)
-
         ShowFpsText =
-            TextEntity.Create(0f, SoundText!!.Pos.y + 100 * 2, "Show FPS -", 70f)
+            TextEntity.Create(0f, headerText!!.Pos.y + 100 * 2.5f, "Show FPS -", 70f)
         ShowFpsText!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.1f + ShowFpsText!!.GetWidth() * 0.5f)
         ShowFpsText!!.SetPaintColor(Color.BLACK)
         ShowFpsButton = SwitchButtonEntity.Create(
@@ -67,13 +61,6 @@ class OptionsState : StateBase {
             ImageManager.Instance.GetImage(IMAGE.I_BUTTON_OFF),
             ImageManager.Instance.GetImage(IMAGE.I_BUTTON_ONN),
             SETTINGTYPE.ST_FPSSHOW
-        )
-
-        VolumeBar = VolumeBarEntity.Create(
-            ShowFpsButton!!.Pos.x - 300 * 0.5f - ShowFpsButton!!.width * 0.5f,
-            SoundText!!.Pos.y,
-            300f,
-            40f
         )
 
         Coinbmp = BitmapFactory.decodeResource(_view.resources, R.drawable.coin)

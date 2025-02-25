@@ -20,6 +20,7 @@ class GamePage : Activity() {
         Instance = this
 
         setContentView(GameView(this))
+        AudioManager.playAudio(R.raw.bgm,0.5f,true)
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
