@@ -15,7 +15,6 @@ class GameOverState : StateBase {
     private var RetryButton: TextButtonEntity? = null
     private var LeaderboardButton: TextButtonEntity? = null
     private var DepthText: TextEntity? = null
-    private var ShareButton: TextEntity? = null
 
     override fun GetName(): String {
         return "GameOver"
@@ -107,15 +106,6 @@ class GameOverState : StateBase {
             70f
         )
         DepthText!!.SetPaintColor(Color.BLACK)
-
-        ShareButton = TextEntity.Companion.Create(
-            DepthText!!.Pos.x,
-            DepthText!!.Pos.y + DepthText!!.height * 1.5f,
-            "Share",
-            70f
-        )
-        ShareButton!!.SetBMP(ResourceManager.Companion.Instance.GetBitmap(R.drawable.buttonbg))
-        ShareButton!!.SetOnClickTextColor(Color.YELLOW)
 
         RetryButton = TextButtonEntity.Companion.Create(
             0f,
