@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class EnemyProjectile : Projectile() {
     override fun Init(_view: SurfaceView) {

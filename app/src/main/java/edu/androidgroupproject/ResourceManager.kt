@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.content.res.Resources
 import android.graphics.Bitmap

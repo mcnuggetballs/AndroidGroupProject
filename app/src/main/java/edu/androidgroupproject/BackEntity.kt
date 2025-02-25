@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.view.SurfaceView
@@ -10,13 +10,13 @@ class BackEntity : ButtonEntity() {
     override fun Init(_view: SurfaceView) {
         // Define anything you need to use here
         bmpOriginal = Bitmap.createScaledBitmap(
-            ImageManager.Companion.Instance.GetImage(IMAGE.I_BACKBUTTON)!!,
+            ImageManager.Instance.GetImage(IMAGE.I_BACKBUTTON)!!,
             width.toInt(),
             height.toInt(),
             true
         )
         bmpPress = Bitmap.createScaledBitmap(
-            ImageManager.Companion.Instance.GetImage(IMAGE.I_BACKBUTTON_PRESSED)!!,
+            ImageManager.Instance.GetImage(IMAGE.I_BACKBUTTON_PRESSED)!!,
             width.toInt(),
             height.toInt(),
             true
@@ -36,7 +36,7 @@ class BackEntity : ButtonEntity() {
 
     override fun OffClickFunction() {
         bmp = bmpOriginal
-        StateManager.Companion.Instance.ChangeState(nextState)
+        StateManager.Instance.ChangeState(nextState)
     }
 
     companion object {
@@ -53,7 +53,7 @@ class BackEntity : ButtonEntity() {
             result.width = _width
             result.height = _height
             result.nextState = _nextState
-            EntityManager.Companion.Instance.AddEntity(result)
+            EntityManager.Instance.AddEntity(result)
             return result
         }
     }

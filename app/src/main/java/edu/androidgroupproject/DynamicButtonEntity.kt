@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.view.SurfaceView
@@ -51,7 +51,7 @@ open class DynamicButtonEntity : ButtonEntity() {
                 result.height.toInt(),
                 true
             )
-            EntityManager.Companion.Instance.AddEntity(result)
+            EntityManager.Instance.AddEntity(result)
             return result
         }
     }

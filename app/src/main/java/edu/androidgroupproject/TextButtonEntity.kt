@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 class TextButtonEntity : TextEntity() {
     protected var nextState: String? = null

@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Paint
-import androidx.compose.ui.graphics.Color
 
 enum class PARTICLETYPE {
     P_MONEY,

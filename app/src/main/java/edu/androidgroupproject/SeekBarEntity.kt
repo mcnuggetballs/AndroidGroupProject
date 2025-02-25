@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -41,14 +41,14 @@ open class SeekBarEntity : EntityBase {
     }
 
     override fun Update(_dt: Float) {
-        if (TouchManager.Companion.Instance.HasTouch()) {
+        if (TouchManager.Instance.HasTouch()) {
             if (Collision.AABBToAABB(
                     Pos.x,
                     Pos.y,
                     width,
                     height,
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat(),
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat(),
                     1f,
                     1f
                 )
@@ -60,9 +60,9 @@ open class SeekBarEntity : EntityBase {
         }
 
         if (dragging == true) {
-            val xOffset: Float = TouchManager.Companion.Instance.GetPosX() - xStart
+            val xOffset: Float = TouchManager.Instance.GetPosX() - xStart
             if (xOffset > 0 && xOffset < width) SliderPos.x =
-                TouchManager.Companion.Instance.GetPosX().toFloat()
+                TouchManager.Instance.GetPosX().toFloat()
             else if (xOffset <= 0) {
                 SliderPos.x = Pos.x - width * 0.5f
             } else if (xOffset >= width) {

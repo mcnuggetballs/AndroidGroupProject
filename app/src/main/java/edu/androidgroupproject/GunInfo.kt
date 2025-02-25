@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 enum class SHOOTTYPE {
     S_STRAIGHT,

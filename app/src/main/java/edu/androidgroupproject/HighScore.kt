@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 class HighScore
 internal constructor(private var Score: Int, private var Name: String) {

@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.view.SurfaceView
 
@@ -6,7 +6,7 @@ class BossCrabEntity : EnemyEntity() {
     private var shot = false
     override fun Init(_view: SurfaceView) {
         // Define anything you need to use here
-        SpawnManager.Companion.Instance.bossTime = true
+        SpawnManager.Instance.bossTime = true
         health = 1000f
         sheetRow = 3
         sheetCol = 17
@@ -16,10 +16,10 @@ class BossCrabEntity : EnemyEntity() {
         SheetHitEnd = 34
         SheetNormalStart = 35
         SheetNormalEnd = 51
-        spritesheet = ImageManager.Companion.Instance.GetCrabSpriteSheet()
+        spritesheet = ImageManager.Instance.GetCrabSpriteSheet()
         spritesheet!!.SetAnimationFrames(1, 2)
 
-        damage = PlayerInfo.Companion.Instance.GetMaxHealth()
+        damage = PlayerInfo.Instance.GetMaxHealth()
         BulletDamage = 3f
         score = 300
         gold = 100
@@ -46,10 +46,10 @@ class BossCrabEntity : EnemyEntity() {
     override fun DieFunction(_dt: Float) {
         if (health <= 0) {
             if (!dead) {
-                PlayerInfo.Companion.Instance.AddScore(score)
+                PlayerInfo.Instance.AddScore(score)
                 SpawnGold()
 
-                SpawnManager.Companion.Instance.bossTime = false
+                SpawnManager.Instance.bossTime = false
             }
 
             dead = true
@@ -88,7 +88,7 @@ class BossCrabEntity : EnemyEntity() {
             if (spritesheet!!.GetCurrentFrameColumn() == 16) {
                 if (!shot) {
                     for (i in 0..8) {
-                        val temp: EnemyProjectile = EnemyProjectile.Companion.Create(
+                        val temp: EnemyProjectile = EnemyProjectile.Create(
                             BulletDamage,
                             Pos.x,
                             Pos.y + height * 0.5f
@@ -118,7 +118,7 @@ class BossCrabEntity : EnemyEntity() {
     companion object {
         fun Create(): BossCrabEntity {
             val result = BossCrabEntity()
-            EntityManager.Companion.Instance.AddEntity(result)
+            EntityManager.Instance.AddEntity(result)
             return result
         }
     }

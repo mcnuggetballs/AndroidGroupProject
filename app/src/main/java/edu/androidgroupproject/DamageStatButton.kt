@@ -1,27 +1,27 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Color
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class DamageStatButton : StatButtonEntity() {
     override fun OnClickFunction() {
-        if (PlayerInfo.Companion.Instance.GetMoney() >= Cost) {
-            PlayerInfo.Companion.Instance.GetMainWeapon()!!.SetWeaponDamage(
-                PlayerInfo.Companion.Instance.GetMainWeapon()!!.GetWeaponDamage() + AddValue
+        if (PlayerInfo.Instance.GetMoney() >= Cost) {
+            PlayerInfo.Instance.GetMainWeapon()!!.SetWeaponDamage(
+                PlayerInfo.Instance.GetMainWeapon()!!.GetWeaponDamage() + AddValue
             )
             Value += AddValue
-            PlayerInfo.Companion.Instance.MinusMoney(Cost)
-            GameSystem.Companion.Instance.SaveEditBegin()
-            GameSystem.Companion.Instance.SetIntInSave(
-                "maingunshootdamage", PlayerInfo.Companion.Instance.GetMainWeapon()!!
+            PlayerInfo.Instance.MinusMoney(Cost)
+            GameSystem.Instance.SaveEditBegin()
+            GameSystem.Instance.SetIntInSave(
+                "maingunshootdamage", PlayerInfo.Instance.GetMainWeapon()!!
                     .GetWeaponDamage()
             )
-            GameSystem.Companion.Instance.SetIntInSave(
+            GameSystem.Instance.SetIntInSave(
                 "money",
-                PlayerInfo.Companion.Instance.GetMoney()
+                PlayerInfo.Instance.GetMoney()
             )
-            GameSystem.Companion.Instance.SaveEditEnd()
+            GameSystem.Instance.SaveEditEnd()
         }
     }
 
@@ -42,13 +42,13 @@ class DamageStatButton : StatButtonEntity() {
             result.Pos.x = xPos
             result.Pos.y = yPos
             result.bmp = Bitmap.createScaledBitmap(
-                ResourceManager.Companion.Instance.GetBitmap(R.drawable.plusbutton)!!,
+                ResourceManager.Instance.GetBitmap(R.drawable.plusbutton)!!,
                 buttonSize.toInt(),
                 buttonSize.toInt(),
                 true
             )
             result.coinBitMap = Bitmap.createScaledBitmap(
-                ResourceManager.Companion.Instance.GetBitmap(R.drawable.coin)!!,
+                ResourceManager.Instance.GetBitmap(R.drawable.coin)!!,
                 buttonSize.toInt(),
                 buttonSize.toInt(),
                 true
@@ -58,7 +58,7 @@ class DamageStatButton : StatButtonEntity() {
             result.Cost = cost
             result.paint.color = Color.BLACK
             result.paint.textSize = textSize
-            EntityManager.Companion.Instance.AddEntity(result)
+            EntityManager.Instance.AddEntity(result)
             return result
         }
     }

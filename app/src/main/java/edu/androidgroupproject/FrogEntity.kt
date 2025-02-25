@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class FrogEntity : EnemyEntity() {
     private var xJumpSpeed = 0f
@@ -56,7 +55,7 @@ class FrogEntity : EnemyEntity() {
     override fun DieFunction(_dt: Float) {
         if (health <= 0) {
             if (!dead) {
-                PlayerInfo.Companion.Instance.AddScore(score)
+                PlayerInfo.Instance.AddScore(score)
                 if (Math.random().toFloat() * 100 <= 50) SpawnPowerupStraight(10f)
                 else SpawnPowerupSpread(10f)
 

@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -6,7 +6,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.view.SurfaceView
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class MainGameState : StateBase {
     private var bmp: Bitmap? = null // Background image

@@ -1,9 +1,8 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.util.Log
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class MantisEntity : EnemyEntity() {
     private var goingRight = false

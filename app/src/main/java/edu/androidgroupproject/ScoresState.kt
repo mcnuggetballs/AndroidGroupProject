@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -7,7 +7,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
 import android.view.SurfaceView
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class ScoresState : StateBase {
     private var background: Bitmap? = null
@@ -27,12 +27,12 @@ class ScoresState : StateBase {
     override fun OnEnter(_view: SurfaceView) {
         background = Bitmap.createScaledBitmap(
             ImageManager.Companion.Instance.GetImage(IMAGE.I_MENUBACKGROUND)!!,
-            GameSystem.Companion.Instance.GetScreenScale()!!.x.toInt(),
-            GameSystem.Companion.Instance.GetScreenScale()!!.y.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.x.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.y.toInt(),
             true
         )
-        headerText = TextEntity.Companion.Create(
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.5f,
+        headerText = TextEntity.Create(
+            GameSystem.Instance.ScreenScale!!.x * 0.5f,
             0f,
             "Scores",
             100f
@@ -71,19 +71,19 @@ class ScoresState : StateBase {
         EntityManager.Companion.Instance.Render(_canvas)
         var count = 0
         for (i in 0..4) {
-            if (i >= GameSystem.Companion.Instance.GetHighScores()!!.size) {
+            if (i >= GameSystem.Instance.GetHighScores()!!.size) {
                 _canvas.drawText(
                     (i + 1).toString() + ".---------",
-                    GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f,
-                    GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
+                    GameSystem.Instance.ScreenScale!!.x * 0.1f,
+                    GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
                     HighScorePaint
                 )
                 val scoreText = "0"
                 HighScorePaint.getTextBounds(scoreText, 0, scoreText.length, HighScoreTextBounds)
                 _canvas.drawText(
                     scoreText,
-                    GameSystem.Companion.Instance.ScreenScale!!.x * 0.9f - HighScoreTextBounds.width(),
-                    GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
+                    GameSystem.Instance.ScreenScale!!.x * 0.9f - HighScoreTextBounds.width(),
+                    GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
                     HighScorePaint
                 )
                 ++count
@@ -92,18 +92,18 @@ class ScoresState : StateBase {
 
 
             _canvas.drawText(
-                (i + 1).toString() + "." + GameSystem.Companion.Instance.GetHighScores()!!
+                (i + 1).toString() + "." + GameSystem.Instance.GetHighScores()!!
                     .get(i).GetName(),
-                GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f,
-                GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
+                GameSystem.Instance.ScreenScale!!.x * 0.1f,
+                GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
                 HighScorePaint
             )
-            val depthText = "" + GameSystem.Companion.Instance.GetHighScores()!!.get(i).GetScore()
+            val depthText = "" + GameSystem.Instance.GetHighScores()!!.get(i).GetScore()
             HighScorePaint.getTextBounds(depthText, 0, depthText.length, HighScoreTextBounds)
             _canvas.drawText(
                 depthText,
-                GameSystem.Companion.Instance.ScreenScale!!.x * 0.9f - HighScoreTextBounds.width(),
-                GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
+                GameSystem.Instance.ScreenScale!!.x * 0.9f - HighScoreTextBounds.width(),
+                GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HighScoreTextBounds.height() * 1.2f * count,
                 HighScorePaint
             )
             ++count
@@ -128,27 +128,27 @@ class ScoresState : StateBase {
     }
 
     override fun Update(_dt: Float) {
-        if (TouchManager.Companion.Instance.HasTouch()) {
+        if (TouchManager.Instance.HasTouch()) {
             for (i in 0..2) {
                 ParticleManager.Companion.Instance.CreateParticle(
                     PlayerInfo.Companion.Instance.GetEffectType(),
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat()
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat()
                 )
             }
         }
 
-        GameSystem.Companion.Instance.m_bubbleTimer += _dt
-        if (GameSystem.Companion.Instance.m_bubbleTimer >= bubbleSpawnTime) {
+        GameSystem.Instance.m_bubbleTimer += _dt
+        if (GameSystem.Instance.m_bubbleTimer >= bubbleSpawnTime) {
             val newParticle: ParticleObject =
                 ParticleManager.Companion.Instance.FetchParticle(PARTICLETYPE.P_BUBBLE)
             val diameter = (Math.random() * 50 + 15).toInt()
             newParticle.width = diameter.toFloat()
             newParticle.height = diameter.toFloat()
             newParticle.position.x = (Math.random()
-                .toFloat() * (GameSystem.Companion.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
+                .toFloat() * (GameSystem.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
             newParticle.position.y =
-                GameSystem.Companion.Instance.GetScreenScale()!!.y + newParticle.height
+                GameSystem.Instance.GetScreenScale()!!.y + newParticle.height
             newParticle.velocity.x = Math.random().toFloat() * 40 - 20
             newParticle.velocity.y = -(Math.random().toFloat() * 160 + 80)
             newParticle.SetBMP(
@@ -158,7 +158,7 @@ class ScoresState : StateBase {
                     )!!, diameter, diameter, true
                 )
             )
-            GameSystem.Companion.Instance.m_bubbleTimer = 0f
+            GameSystem.Instance.m_bubbleTimer = 0f
         }
         ParticleManager.Companion.Instance.Update(_dt)
         EntityManager.Companion.Instance.Update(_dt)

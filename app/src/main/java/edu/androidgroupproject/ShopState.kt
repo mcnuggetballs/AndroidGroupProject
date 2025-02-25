@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -7,7 +7,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
 import android.view.SurfaceView
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class ShopState : StateBase {
     private var background: Bitmap? = null
@@ -31,12 +31,12 @@ class ShopState : StateBase {
     override fun OnEnter(_view: SurfaceView) {
         background = Bitmap.createScaledBitmap(
             ImageManager.Companion.Instance.GetImage(IMAGE.I_MENUBACKGROUND)!!,
-            GameSystem.Companion.Instance.GetScreenScale()!!.x.toInt(),
-            GameSystem.Companion.Instance.GetScreenScale()!!.y.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.x.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.y.toInt(),
             true
         )
-        headerText = TextEntity.Companion.Create(
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.5f,
+        headerText = TextEntity.Create(
+            GameSystem.Instance.ScreenScale!!.x * 0.5f,
             0f,
             "Shop",
             100f
@@ -61,8 +61,8 @@ class ShopState : StateBase {
         moneyPaint.isFakeBoldText = true
 
         HealthStat = HealthStatButton.Companion.Create(
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.5f,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.5f,
             PlayerInfo.Companion.Instance.GetMaxHealth().toInt(),
             10,
             200,
@@ -70,8 +70,8 @@ class ShopState : StateBase {
             60f
         )
         DamageStat = DamageStatButton.Companion.Create(
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.5f + HealthStat!!.GetHeight() * 1,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.5f + HealthStat!!.GetHeight() * 1,
             PlayerInfo.Companion.Instance.GetMainWeapon()!!
                 .GetWeaponDamage(),
             5,
@@ -80,8 +80,8 @@ class ShopState : StateBase {
             60f
         )
         FireCountStat = FireAmountStatButton.Companion.Create(
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.5f + HealthStat!!.GetHeight() * 2,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.5f + HealthStat!!.GetHeight() * 2,
             PlayerInfo.Companion.Instance.GetMainWeapon()!!
                 .GetShootAmount(),
             1,
@@ -89,29 +89,29 @@ class ShopState : StateBase {
             60f,
             60f
         )
-        HealthStat!!.SetPosX(GameSystem.Companion.Instance.ScreenScale!!.x * 0.75f)
-        HealthStat!!.SetPosY(GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f)
-        DamageStat!!.SetPosX(GameSystem.Companion.Instance.ScreenScale!!.x * 0.75f)
-        DamageStat!!.SetPosY(GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f + HealthStat!!.GetHeight() * 1)
-        FireCountStat!!.SetPosX(GameSystem.Companion.Instance.ScreenScale!!.x * 0.75f)
-        FireCountStat!!.SetPosY(GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f + HealthStat!!.GetHeight() * 2)
+        HealthStat!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.75f)
+        HealthStat!!.SetPosY(GameSystem.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f)
+        DamageStat!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.75f)
+        DamageStat!!.SetPosY(GameSystem.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f + HealthStat!!.GetHeight() * 1)
+        FireCountStat!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.75f)
+        FireCountStat!!.SetPosY(GameSystem.Instance.GetScreenScale()!!.y * 0.2f - HealthStat!!.textHeight * 0.5f + HealthStat!!.GetHeight() * 2)
         //shoot amount //fire rate //damage //speed
         bloodButton = ParticleButtonEntity.Companion.Create(
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.buybutton),
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.bloodparticlebutton),
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.8f,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.8f,
             200f,
             60f,
             100
         )
-        if (GameSystem.Companion.Instance.GetBoolFromSave("bloodeffect") == true) bloodButton!!.bought =
+        if (GameSystem.Instance.GetBoolFromSave("bloodeffect") == true) bloodButton!!.bought =
             true
         bubbleButton = ParticleButtonEntity.Companion.Create(
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.buybutton),
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.bubbleparticlebutton),
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f - bloodButton!!.width * 1.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.8f,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f - bloodButton!!.width * 1.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.8f,
             200f,
             60f,
             0
@@ -121,13 +121,13 @@ class ShopState : StateBase {
         fishButton = ParticleButtonEntity.Companion.Create(
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.buybutton),
             ResourceManager.Companion.Instance.GetBitmap(R.drawable.fishparticlebutton),
-            GameSystem.Companion.Instance.GetScreenScale()!!.x * 0.5f + bloodButton!!.width * 1.5f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.8f,
+            GameSystem.Instance.GetScreenScale()!!.x * 0.5f + bloodButton!!.width * 1.5f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.8f,
             200f,
             60f,
             100
         )
-        if (GameSystem.Companion.Instance.GetBoolFromSave("fisheffect") == true) fishButton!!.bought =
+        if (GameSystem.Instance.GetBoolFromSave("fisheffect") == true) fishButton!!.bought =
             true
     }
 
@@ -159,22 +159,22 @@ class ShopState : StateBase {
 
         _canvas.drawText(
             "Ship HP - " + PlayerInfo.Companion.Instance.GetMaxHealth().toString(),
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f,
+            GameSystem.Instance.ScreenScale!!.x * 0.1f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.2f,
             HealthStat!!.paint
         )
         _canvas.drawText(
             "Damage - " + PlayerInfo.Companion.Instance.GetMainWeapon()!!.GetWeaponDamage()
                 .toString(),
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HealthStat!!.GetHeight() * 1,
+            GameSystem.Instance.ScreenScale!!.x * 0.1f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HealthStat!!.GetHeight() * 1,
             HealthStat!!.paint
         )
         _canvas.drawText(
             "Fire Count - " + PlayerInfo.Companion.Instance.GetMainWeapon()!!.GetShootAmount()
                 .toString(),
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f,
-            GameSystem.Companion.Instance.GetScreenScale()!!.y * 0.2f + HealthStat!!.GetHeight() * 2,
+            GameSystem.Instance.ScreenScale!!.x * 0.1f,
+            GameSystem.Instance.GetScreenScale()!!.y * 0.2f + HealthStat!!.GetHeight() * 2,
             HealthStat!!.paint
         )
 
@@ -182,12 +182,12 @@ class ShopState : StateBase {
     }
 
     override fun Update(_dt: Float) {
-        if (TouchManager.Companion.Instance.HasTouch()) {
+        if (TouchManager.Instance.HasTouch()) {
             for (i in 0..2) {
                 ParticleManager.Companion.Instance.CreateParticle(
                     PlayerInfo.Companion.Instance.GetEffectType(),
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat()
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat()
                 )
             }
         }
@@ -197,9 +197,9 @@ class ShopState : StateBase {
                 if (PlayerInfo.Companion.Instance.GetMoney() >= bloodButton!!.Cost) {
                     bloodButton!!.bought = true
                     PlayerInfo.Companion.Instance.MinusMoney(bloodButton!!.Cost)
-                    GameSystem.Companion.Instance.SaveEditBegin()
-                    GameSystem.Companion.Instance.SetBoolInSave("bloodeffect", true)
-                    GameSystem.Companion.Instance.SaveEditEnd()
+                    GameSystem.Instance.SaveEditBegin()
+                    GameSystem.Instance.SetBoolInSave("bloodeffect", true)
+                    GameSystem.Instance.SaveEditEnd()
                 }
             }
         }
@@ -209,24 +209,24 @@ class ShopState : StateBase {
                 if (PlayerInfo.Companion.Instance.GetMoney() >= fishButton!!.Cost) {
                     fishButton!!.bought = true
                     PlayerInfo.Companion.Instance.MinusMoney(fishButton!!.Cost)
-                    GameSystem.Companion.Instance.SaveEditBegin()
-                    GameSystem.Companion.Instance.SetBoolInSave("fisheffect", true)
-                    GameSystem.Companion.Instance.SaveEditEnd()
+                    GameSystem.Instance.SaveEditBegin()
+                    GameSystem.Instance.SetBoolInSave("fisheffect", true)
+                    GameSystem.Instance.SaveEditEnd()
                 }
             }
         }
 
-        GameSystem.Companion.Instance.m_bubbleTimer += _dt
-        if (GameSystem.Companion.Instance.m_bubbleTimer >= bubbleSpawnTime) {
+        GameSystem.Instance.m_bubbleTimer += _dt
+        if (GameSystem.Instance.m_bubbleTimer >= bubbleSpawnTime) {
             val newParticle: ParticleObject =
                 ParticleManager.Companion.Instance.FetchParticle(PARTICLETYPE.P_BUBBLE)
             val diameter = (Math.random() * 50 + 15).toInt()
             newParticle.width = diameter.toFloat()
             newParticle.height = diameter.toFloat()
             newParticle.position.x = (Math.random()
-                .toFloat() * (GameSystem.Companion.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
+                .toFloat() * (GameSystem.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
             newParticle.position.y =
-                GameSystem.Companion.Instance.GetScreenScale()!!.y + newParticle.height
+                GameSystem.Instance.GetScreenScale()!!.y + newParticle.height
             newParticle.velocity.x = Math.random().toFloat() * 40 - 20
             newParticle.velocity.y = -(Math.random().toFloat() * 160 + 80)
             newParticle.SetBMP(
@@ -236,7 +236,7 @@ class ShopState : StateBase {
                     )!!, diameter, diameter, true
                 )
             )
-            GameSystem.Companion.Instance.m_bubbleTimer = 0f
+            GameSystem.Instance.m_bubbleTimer = 0f
         }
         ParticleManager.Companion.Instance.Update(_dt)
         EntityManager.Companion.Instance.Update(_dt)

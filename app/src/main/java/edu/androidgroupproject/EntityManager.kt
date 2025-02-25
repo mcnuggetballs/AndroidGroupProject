@@ -1,12 +1,11 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Canvas
 import android.view.SurfaceView
-import java.util.LinkedList
 
 class EntityManager private constructor() {
-    private val entityList = LinkedList<EntityBase>()
-    private val addQueue = LinkedList<EntityBase>()
+    private val entityList: MutableList<EntityBase> = mutableListOf()
+    private val addQueue: MutableList<EntityBase> = mutableListOf()
     private var view: SurfaceView? = null
 
     fun Init(_view: SurfaceView?) {
@@ -18,7 +17,7 @@ class EntityManager private constructor() {
         entityList.addAll(addQueue)
         addQueue.clear() // Clean up add queue
 
-        val removalList = LinkedList<EntityBase>()
+        val removalList = mutableListOf<EntityBase>()
 
         // Update all entities and collect those that should be removed
         for (currEntity in entityList) {
@@ -51,10 +50,7 @@ class EntityManager private constructor() {
 
     fun Render(_canvas: Canvas) {
         // Sort entities by render layer before rendering
-        val sortedEntities = entityList.sortedBy { it.GetRenderLayer() }
-        for (currEntity in sortedEntities) {
-            currEntity.Render(_canvas)
-        }
+        entityList.sortedBy { it.GetRenderLayer() }.forEach { it.Render(_canvas) }
     }
 
     fun AddEntity(_newEntity: EntityBase) {

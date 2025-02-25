@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.view.MotionEvent
 import android.view.Window
 import android.view.WindowManager
-import com.fishweeb.practical.GameView
-import com.fishweeb.practical.TouchManager
 
 class GamePage : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {

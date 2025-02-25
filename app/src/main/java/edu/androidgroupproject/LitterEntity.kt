@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class LitterEntity : EnemyEntity() {
     override fun Init(_view: SurfaceView) {
@@ -46,7 +45,7 @@ class LitterEntity : EnemyEntity() {
     override fun DieFunction(_dt: Float) {
         if (health <= 0) {
             if (!dead) {
-                PlayerInfo.Companion.Instance.AddScore(score)
+                PlayerInfo.Instance.AddScore(score)
                 SpawnPowerupStraight(100f)
                 SpawnGold()
             }

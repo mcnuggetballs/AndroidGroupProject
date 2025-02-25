@@ -1,8 +1,8 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.view.SurfaceView
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class PauseEntity : ButtonEntity() {
     override fun Init(_view: SurfaceView) {

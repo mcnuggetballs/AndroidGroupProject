@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -7,7 +7,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
 import android.view.SurfaceView
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class OptionsState : StateBase {
     private var background: Bitmap? = null
@@ -29,12 +29,12 @@ class OptionsState : StateBase {
     override fun OnEnter(_view: SurfaceView) {
         background = Bitmap.createScaledBitmap(
             ImageManager.Companion.Instance.GetImage(IMAGE.I_MENUBACKGROUND)!!,
-            GameSystem.Companion.Instance.GetScreenScale()!!.x.toInt(),
-            GameSystem.Companion.Instance.GetScreenScale()!!.y.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.x.toInt(),
+            GameSystem.Instance.GetScreenScale()!!.y.toInt(),
             true
         )
-        headerText = TextEntity.Companion.Create(
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.5f,
+        headerText = TextEntity.Create(
+            GameSystem.Instance.ScreenScale!!.x * 0.5f,
             0f,
             "Options",
             100f
@@ -51,25 +51,25 @@ class OptionsState : StateBase {
         backButton!!.SetPosX(backButton!!.width * 0.5f)
         backButton!!.SetPosY(backButton!!.height * 0.5f)
 
-        SoundText = TextEntity.Companion.Create(0f, headerText!!.Pos.y + 100 * 2.5f, "Sound -", 70f)
-        SoundText!!.SetPosX(GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f + SoundText!!.GetWidth() * 0.5f)
+        SoundText = TextEntity.Create(0f, headerText!!.Pos.y + 100 * 2.5f, "Sound -", 70f)
+        SoundText!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.1f + SoundText!!.GetWidth() * 0.5f)
         SoundText!!.SetPaintColor(Color.BLACK)
 
         ShowFpsText =
-            TextEntity.Companion.Create(0f, SoundText!!.Pos.y + 100 * 2, "Show FPS -", 70f)
-        ShowFpsText!!.SetPosX(GameSystem.Companion.Instance.ScreenScale!!.x * 0.1f + ShowFpsText!!.GetWidth() * 0.5f)
+            TextEntity.Create(0f, SoundText!!.Pos.y + 100 * 2, "Show FPS -", 70f)
+        ShowFpsText!!.SetPosX(GameSystem.Instance.ScreenScale!!.x * 0.1f + ShowFpsText!!.GetWidth() * 0.5f)
         ShowFpsText!!.SetPaintColor(Color.BLACK)
-        ShowFpsButton = SwitchButtonEntity.Companion.Create(
-            GameSystem.Companion.Instance.ScreenScale!!.x * 0.9f,
+        ShowFpsButton = SwitchButtonEntity.Create(
+            GameSystem.Instance.ScreenScale!!.x * 0.9f,
             ShowFpsText!!.Pos.y,
             100f,
             70f,
-            ImageManager.Companion.Instance.GetImage(IMAGE.I_BUTTON_OFF),
-            ImageManager.Companion.Instance.GetImage(IMAGE.I_BUTTON_ONN),
+            ImageManager.Instance.GetImage(IMAGE.I_BUTTON_OFF),
+            ImageManager.Instance.GetImage(IMAGE.I_BUTTON_ONN),
             SETTINGTYPE.ST_FPSSHOW
         )
 
-        VolumeBar = VolumeBarEntity.Companion.Create(
+        VolumeBar = VolumeBarEntity.Create(
             ShowFpsButton!!.Pos.x - 300 * 0.5f - ShowFpsButton!!.width * 0.5f,
             SoundText!!.Pos.y,
             300f,
@@ -91,11 +91,11 @@ class OptionsState : StateBase {
     override fun Render(_canvas: Canvas) {
         // Render anything
         _canvas.drawBitmap(background!!, 0f, 0f, null)
-        ParticleManager.Companion.Instance.Render(_canvas)
+        ParticleManager.Instance.Render(_canvas)
         EntityManager.Companion.Instance.Render(_canvas)
 
         //Money
-        val moneyText = "" + PlayerInfo.Companion.Instance.GetMoney()
+        val moneyText = "" + PlayerInfo.Instance.GetMoney()
         moneyPaint.getTextBounds(moneyText, 0, moneyText.length, moneyTextBounds)
         _canvas.drawBitmap(
             Coinbmp!!,
@@ -113,27 +113,27 @@ class OptionsState : StateBase {
     }
 
     override fun Update(_dt: Float) {
-        if (TouchManager.Companion.Instance.HasTouch()) {
+        if (TouchManager.Instance.HasTouch()) {
             for (i in 0..2) {
-                ParticleManager.Companion.Instance.CreateParticle(
-                    PlayerInfo.Companion.Instance.GetEffectType(),
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat()
+                ParticleManager.Instance.CreateParticle(
+                    PlayerInfo.Instance.GetEffectType(),
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat()
                 )
             }
         }
 
-        GameSystem.Companion.Instance.m_bubbleTimer += _dt
-        if (GameSystem.Companion.Instance.m_bubbleTimer >= bubbleSpawnTime) {
+        GameSystem.Instance.m_bubbleTimer += _dt
+        if (GameSystem.Instance.m_bubbleTimer >= bubbleSpawnTime) {
             val newParticle: ParticleObject =
-                ParticleManager.Companion.Instance.FetchParticle(PARTICLETYPE.P_BUBBLE)
+                ParticleManager.Instance.FetchParticle(PARTICLETYPE.P_BUBBLE)
             val diameter = (Math.random() * 50 + 15).toInt()
             newParticle.width = diameter.toFloat()
             newParticle.height = diameter.toFloat()
             newParticle.position.x = (Math.random()
-                .toFloat() * (GameSystem.Companion.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
+                .toFloat() * (GameSystem.Instance.GetScreenScale()!!.x - newParticle.width)) + (newParticle.width * 0.5f)
             newParticle.position.y =
-                GameSystem.Companion.Instance.GetScreenScale()!!.y + newParticle.height
+                GameSystem.Instance.GetScreenScale()!!.y + newParticle.height
             newParticle.velocity.x = Math.random().toFloat() * 40 - 20
             newParticle.velocity.y = -(Math.random().toFloat() * 160 + 80)
             newParticle.SetBMP(
@@ -143,9 +143,9 @@ class OptionsState : StateBase {
                     )!!, diameter, diameter, true
                 )
             )
-            GameSystem.Companion.Instance.m_bubbleTimer = 0f
+            GameSystem.Instance.m_bubbleTimer = 0f
         }
-        ParticleManager.Companion.Instance.Update(_dt)
+        ParticleManager.Instance.Update(_dt)
         EntityManager.Companion.Instance.Update(_dt)
     }
 }

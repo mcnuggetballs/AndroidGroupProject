@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 object LayerConstants {
     const val BACKGROUND_LAYER: Int = 0

@@ -1,4 +1,6 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
+
+import com.edu.androidgroupproject.GameSystem
 
 enum class SETTINGTYPE {
     ST_FPSSHOW,
@@ -19,8 +21,8 @@ private constructor() {
     private var fps_show: Boolean
 
     init {
-        sound_volume = GameSystem.Companion.Instance.GetIntFromSave("volume")
-        fps_show = GameSystem.Companion.Instance.GetBoolFromSave("showfps")
+        sound_volume = GameSystem.Instance.GetIntFromSave("volume")
+        fps_show = GameSystem.Instance.GetBoolFromSave("showfps")
     }
 
     fun GetSoundVolume(): Int {
@@ -29,16 +31,16 @@ private constructor() {
 
     fun SetSoundVolume(_value: Int) {
         sound_volume = _value
-        GameSystem.Companion.Instance.SaveEditBegin()
-        GameSystem.Companion.Instance.SetIntInSave("volume", _value)
-        GameSystem.Companion.Instance.SaveEditEnd()
+        GameSystem.Instance.SaveEditBegin()
+        GameSystem.Instance.SetIntInSave("volume", _value)
+        GameSystem.Instance.SaveEditEnd()
     }
 
     fun SetFpsShow(_value: Boolean) {
         fps_show = _value
-        GameSystem.Companion.Instance.SaveEditBegin()
-        GameSystem.Companion.Instance.SetBoolInSave("showfps", _value)
-        GameSystem.Companion.Instance.SaveEditEnd()
+        GameSystem.Instance.SaveEditBegin()
+        GameSystem.Instance.SetBoolInSave("showfps", _value)
+        GameSystem.Instance.SaveEditEnd()
     }
 
     fun GetFpsShow(): Boolean {

@@ -1,4 +1,6 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
+
+import edu.androidgroupproject.Collidable
 
 object Collision {
     fun SphereToSphere(

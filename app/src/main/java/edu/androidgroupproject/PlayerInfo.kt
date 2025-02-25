@@ -1,4 +1,6 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
+
+import com.edu.androidgroupproject.GameSystem
 
 class PlayerInfo private constructor() {
     private var MaxHealth: Float

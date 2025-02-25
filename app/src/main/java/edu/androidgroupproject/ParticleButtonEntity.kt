@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -102,14 +102,14 @@ class ParticleButtonEntity : EntityBase {
         if (spritesheet != null) spritesheet!!.Update(_dt)
 
         clicked = false
-        if (TouchManager.Companion.Instance.IsDown()) {
+        if (TouchManager.Instance.IsDown()) {
             if (Collision.AABBToAABB(
                     Pos.x,
                     Pos.y,
                     width,
                     height,
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat(),
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat(),
                     1f,
                     1f
                 )

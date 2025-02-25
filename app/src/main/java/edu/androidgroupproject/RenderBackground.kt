@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Canvas
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class RenderBackground : EntityBase {
     var isDone: Boolean = false
@@ -38,13 +37,13 @@ class RenderBackground : EntityBase {
 
     override fun Render(_canvas: Canvas) {
         _canvas.drawBitmap(
-            ResourceManager.Companion.Instance.GetBitmap(R.drawable.gamescene)!!,
+            ResourceManager.Instance.GetBitmap(R.drawable.gamescene)!!,
             Pos!!.x,
             Pos!!.y,
             null
         )
         _canvas.drawBitmap(
-            ResourceManager.Companion.Instance.GetBitmap(R.drawable.gamescene)!!,
+            ResourceManager.Instance.GetBitmap(R.drawable.gamescene)!!,
             Pos!!.x,
             Pos!!.y - ScreenHeight,
             null

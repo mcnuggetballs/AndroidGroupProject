@@ -1,26 +1,26 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Color
-import edu.androidgroupproject.R
+import com.edu.androidgroupproject.GameSystem
 
 class HealthStatButton : StatButtonEntity() {
     override fun OnClickFunction() {
-        if (PlayerInfo.Companion.Instance.GetMoney() >= Cost) {
-            PlayerInfo.Companion.Instance.SetMaxHealth(PlayerInfo.Companion.Instance.GetMaxHealth() + AddValue)
+        if (PlayerInfo.Instance.GetMoney() >= Cost) {
+            PlayerInfo.Instance.SetMaxHealth(PlayerInfo.Instance.GetMaxHealth() + AddValue)
             Value += AddValue
-            PlayerInfo.Companion.Instance.MinusMoney(Cost)
+            PlayerInfo.Instance.MinusMoney(Cost)
 
-            GameSystem.Companion.Instance.SaveEditBegin()
-            GameSystem.Companion.Instance.SetFloatInSave(
+            GameSystem.Instance.SaveEditBegin()
+            GameSystem.Instance.SetFloatInSave(
                 "maxhealth",
-                PlayerInfo.Companion.Instance.GetMaxHealth()
+                PlayerInfo.Instance.GetMaxHealth()
             )
-            GameSystem.Companion.Instance.SetIntInSave(
+            GameSystem.Instance.SetIntInSave(
                 "money",
-                PlayerInfo.Companion.Instance.GetMoney()
+                PlayerInfo.Instance.GetMoney()
             )
-            GameSystem.Companion.Instance.SaveEditEnd()
+            GameSystem.Instance.SaveEditEnd()
         }
     }
 
@@ -41,13 +41,13 @@ class HealthStatButton : StatButtonEntity() {
             result.Pos.x = xPos
             result.Pos.y = yPos
             result.bmp = Bitmap.createScaledBitmap(
-                ResourceManager.Companion.Instance.GetBitmap(R.drawable.plusbutton)!!,
+                ResourceManager.Instance.GetBitmap(R.drawable.plusbutton)!!,
                 buttonSize.toInt(),
                 buttonSize.toInt(),
                 true
             )
             result.coinBitMap = Bitmap.createScaledBitmap(
-                ResourceManager.Companion.Instance.GetBitmap(R.drawable.coin)!!,
+                ResourceManager.Instance.GetBitmap(R.drawable.coin)!!,
                 buttonSize.toInt(),
                 buttonSize.toInt(),
                 true

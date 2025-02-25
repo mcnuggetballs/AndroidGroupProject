@@ -1,17 +1,11 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Matrix
-import android.graphics.Paint
-import java.util.LinkedList
+import android.graphics.*
 import kotlin.math.atan2
-import edu.androidgroupproject.R
 
 class ParticleManager {
-    private val particleList = LinkedList<ParticleObject>()
-    private val particleQueue = LinkedList<ParticleObject>()
+    private val particleList: MutableList<ParticleObject> = mutableListOf()
+    private val particleQueue: MutableList<ParticleObject> = mutableListOf()
     private val POWERUP_SPEED = 300
     private var ScreenWidth = 0
     private var ScreenHeight = 0
@@ -66,7 +60,7 @@ class ParticleManager {
                 tempParticle2.position.y = y
                 tempParticle2.velocity.x = Math.random().toFloat() * 500 - 250
                 tempParticle2.velocity.y = Math.random().toFloat() * 500 - 250
-                tempParticle2.SetBMP(ResourceManager.Companion.Instance.GetBitmap(R.drawable.sprite_fish)!!)
+                tempParticle2.SetBMP(ResourceManager.Instance.GetBitmap(R.drawable.sprite_fish)!!)
             }
 
             else -> {}
@@ -118,9 +112,9 @@ class ParticleManager {
             p.position.PlusEqual(p.velocity, _dt)
 
             if (p.type == PARTICLETYPE.P_MONEY) {
-                p.target = (PlayerInfo.Companion.Instance.GetPos().Minus(p.position)).Normalized()
+                p.target = (PlayerInfo.Instance.GetPos().Minus(p.position)).Normalized()
                 var DistanceFromPlayer =
-                    p.position.DistanceSquaredFrom(PlayerInfo.Companion.Instance.GetPos())
+                    p.position.DistanceSquaredFrom(PlayerInfo.Instance.GetPos())
                 if (DistanceFromPlayer <= 1) DistanceFromPlayer = 1f
                 p.velocity.PlusEqual(p.target.Times(100000000 / DistanceFromPlayer + 10000), _dt)
 
@@ -130,93 +124,17 @@ class ParticleManager {
                         p.position.x,
                         p.position.y,
                         0f,
-                        PlayerInfo.Companion.Instance.GetPos().x,
-                        PlayerInfo.Companion.Instance.GetPos().y,
+                        PlayerInfo.Instance.GetPos().x,
+                        PlayerInfo.Instance.GetPos().y,
                         30f
                     )
                 ) {
                     p.active = false
-                    PlayerInfo.Companion.Instance.AddMoney(1)
-                }
-            } else if (p.type == PARTICLETYPE.P_BLOOD) {
-                val friction = 900f
-
-                if (p.velocity.x > friction * _dt) p.velocity.x -= friction * _dt
-                else if (p.velocity.x < -friction * _dt) p.velocity.x += friction * _dt
-
-                if (p.velocity.y > friction * _dt) p.velocity.y -= friction * _dt
-                else if (p.velocity.y < -friction * _dt) p.velocity.y += friction * _dt
-
-                if (p.paint == null) {
-                    p.paint = Paint()
-                    p.paint!!.color = Color.RED
-                    p.paint!!.alpha = 255
-                    p.timer = 0f
-                }
-                p.timer += _dt
-                if (p.timer > 0.4) {
-                    p.timer = 0f
-                    p.paint!!.alpha = p.paint!!.alpha - 30
-                }
-                if (p.paint!!.alpha < 30) {
-                    p.active = false
-                    p.paint!!.alpha = 255
-                }
-            } else if (p.type == PARTICLETYPE.P_POWERUP_STRAIGHT) {
-                p.velocity.y = POWERUP_SPEED.toFloat()
-                if (Collision.SphereToSphere(
-                        p.position.x,
-                        p.position.y,
-                        0f,
-                        PlayerInfo.Companion.Instance.GetPos().x,
-                        PlayerInfo.Companion.Instance.GetPos().y,
-                        p.width
-                    )
-                ) {
-                    p.active = false
-                    PlayerInfo.Companion.Instance.GetMainWeapon()!!
-                        .AddShootAmount(SHOOTTYPE.S_STRAIGHT)
-                }
-                DeleteOutOfBounds(p)
-            } else if (p.type == PARTICLETYPE.P_POWERUP_SPREAD) {
-                p.velocity.y = POWERUP_SPEED.toFloat()
-                if (Collision.SphereToSphere(
-                        p.position.x,
-                        p.position.y,
-                        0f,
-                        PlayerInfo.Companion.Instance.GetPos().x,
-                        PlayerInfo.Companion.Instance.GetPos().y,
-                        p.width
-                    )
-                ) {
-                    p.active = false
-                    PlayerInfo.Companion.Instance.GetMainWeapon()!!
-                        .AddShootAmount(SHOOTTYPE.S_SPREAD)
-                }
-                DeleteOutOfBounds(p)
-            } else if (p.type == PARTICLETYPE.P_BUBBLE) {
-                p.position.PlusEqual(p.velocity, _dt)
-
-                if (p.position.x + (p.width * 0.5f) < 0) {
-                    p.active = false
-                } else if (p.position.x - (p.width * 0.5f) > ScreenWidth) {
-                    p.active = false
-                }
-                if (p.position.y + (p.height * 0.5f) < 0) {
-                    p.active = false
-                }
-            } else if (p.type == PARTICLETYPE.P_FISH) {
-                p.position.PlusEqual(p.velocity, _dt)
-
-                if (p.position.x + (p.width * 0.5f) < 0) {
-                    p.active = false
-                } else if (p.position.x - (p.width * 0.5f) > ScreenWidth) {
-                    p.active = false
-                }
-                if (p.position.y + (p.height * 0.5f) < 0) {
-                    p.active = false
+                    PlayerInfo.Instance.AddMoney(1)
                 }
             }
+
+            DeleteOutOfBounds(p)
         }
     }
 
@@ -230,25 +148,6 @@ class ParticleManager {
                 p.position.x + p.width * 0.5f,
                 p.position.y + p.height * 0.5f,
                 PaintColor.Companion.Instance.GetPaint(Color.YELLOW)!!
-            )
-            else if (p.type == PARTICLETYPE.P_POWERUP_STRAIGHT) _canvas.drawBitmap(
-                p.GetBMP()!!,
-                p.position.x - (p.width * 0.5f),
-                p.position.y - (p.height * 0.5f),
-                null
-            )
-            else if (p.type == PARTICLETYPE.P_POWERUP_SPREAD) _canvas.drawBitmap(
-                p.GetBMP()!!,
-                p.position.x - (p.width * 0.5f),
-                p.position.y - (p.height * 0.5f),
-                null
-            )
-            else if (p.type == PARTICLETYPE.P_BLOOD) _canvas.drawOval(
-                p.position.x - p.width * 0.5f,
-                p.position.y - p.height * 0.5f,
-                p.position.x + p.width * 0.5f,
-                p.position.y + p.height * 0.5f,
-                p.paint!!
             )
             else if (p.type == PARTICLETYPE.P_BUBBLE) _canvas.drawBitmap(
                 p.GetBMP()!!,

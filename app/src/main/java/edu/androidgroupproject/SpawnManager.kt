@@ -1,8 +1,7 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.BitmapFactory
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 class SpawnManager {
     var enemySpawnTimer: Float = 0f
@@ -82,7 +81,7 @@ class SpawnManager {
     fun SpawnSquid() {
         if (depth < SquidSpawn_Depth) return
 
-        if (Math.random() * 100 <= 15 + depthDifficultyOffset) SquidEntity.Companion.Create()
+        if (Math.random() * 100 <= 15 + depthDifficultyOffset) SquidEntity.Create()
     }
 
     fun SpawnBoss1() {

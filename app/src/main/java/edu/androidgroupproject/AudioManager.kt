@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.media.MediaPlayer
 import android.view.SurfaceView

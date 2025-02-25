@@ -1,11 +1,10 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Color
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 open class Projectile : EntityBase, Collidable {
     protected var bmp: Bitmap? = null

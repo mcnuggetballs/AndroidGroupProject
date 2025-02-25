@@ -1,4 +1,4 @@
-package com.fishweeb.practical
+package edu.androidgroupproject
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -7,7 +7,6 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.graphics.Typeface
 import android.view.SurfaceView
-import edu.androidgroupproject.R
 
 open class StatButtonEntity : EntityBase {
     protected var bmp: Bitmap? = null
@@ -85,14 +84,14 @@ open class StatButtonEntity : EntityBase {
         CurrentCost = Cost * (Value / AddValue)
 
         clicked = false
-        if (TouchManager.Companion.Instance.IsDown()) {
+        if (TouchManager.Instance.IsDown()) {
             if (Collision.AABBToAABB(
                     Pos.x,
                     Pos.y,
                     width,
                     height,
-                    TouchManager.Companion.Instance.GetPosX().toFloat(),
-                    TouchManager.Companion.Instance.GetPosY().toFloat(),
+                    TouchManager.Instance.GetPosX().toFloat(),
+                    TouchManager.Instance.GetPosY().toFloat(),
                     1f,
                     1f
                 )
